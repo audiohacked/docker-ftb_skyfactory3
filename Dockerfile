@@ -3,7 +3,7 @@ FROM openjdk:alpine
 MAINTAINER Sean Nelson <audiohacked@gmail.com>
 
 ENV BASE_URL="http://ftb.cursecdn.com/FTB2/modpacks/FTBPresentsSkyfactory3"
-ENV FTB_VERSION="3_0_8"
+ENV FTB_VERSION="3_0_9"
 ENV SERVER_FILE="FTBPresentsSkyfactory3Server.zip"
 ENV SERVER_PORT 25565
 
