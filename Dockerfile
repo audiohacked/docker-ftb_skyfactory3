@@ -24,6 +24,6 @@ RUN mkdir -p /minecraft/world && \
     /minecraft/FTBInstall.sh
 
 EXPOSE ${SERVER_PORT}
-VOLUME ["/minecraft/world", "/minecraft/backup"]
+VOLUME ["/minecraft/world", "/minecraft/backups"]
 
 CMD ["/bin/sh", "/minecraft/ServerStart.sh"]
